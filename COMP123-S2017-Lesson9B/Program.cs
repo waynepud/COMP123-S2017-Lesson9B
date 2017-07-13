@@ -25,6 +25,7 @@ namespace COMP123_S2017_Lesson9B
             //SuperHero.DisplayPowers();
 
             Console.WriteLine(superHero.ToString());
+            Console.WriteLine("karma: " + superHero.Karma);
         }
     }
 }
