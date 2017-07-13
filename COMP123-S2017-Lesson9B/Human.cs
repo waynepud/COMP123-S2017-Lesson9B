@@ -8,7 +8,7 @@ using System.Text;
  * Name: Wayne Pud
  * Date: July 11, 2017
  * Description: This is the Abstract Human Class
- * Version: 0.1 - Created the Abstract Human class
+ * Version: 0.2 - Added public abstract method displayskills
  */
 
 namespace COMP123_S2017_Lesson9B
@@ -50,5 +50,8 @@ namespace COMP123_S2017_Lesson9B
         //private methods
 
         //public methods
+
+        //public abstract methods
+        public abstract void DisplaySkills();
     }
 }
