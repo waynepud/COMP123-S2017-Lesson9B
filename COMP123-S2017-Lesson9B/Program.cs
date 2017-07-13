@@ -8,8 +8,7 @@ using System.Threading.Tasks;
  * Name: Wayne Pud
  * Date: July 11, 2017
  * Description: Demo for lesson 9
- * Version: 0.4 - Added another power to the SuperHuman object
- *              - Also displayed all the powers in the Power List
+ * Version: 0.5 - used the tostring method of the superhuman class
  */
 
 
@@ -22,7 +21,10 @@ namespace COMP123_S2017_Lesson9B
             SuperHuman superHuman = new SuperHuman("SuperDude");
             superHuman.AddPower("Spider Climbing", 50);
             superHuman.AddPower("Webcasting", 40);
-            superHuman.DisplayPowers();
+            superHuman.AddPower("Webcasting", 40);
+            //superHuman.DisplayPowers();
+
+            Console.WriteLine(superHuman.ToString());
         }
     }
 }
