@@ -6,9 +6,9 @@ using System.Threading.Tasks;
 
 /*
  * Name: Wayne Pud
- * Date: July 11, 2017
+ * Date: July 13, 2017
  * Description: Demo for lesson 9
- * Version: 0.5 - used the tostring method of the superhuman class
+ * Version: 0.6 - Implemented the superhero class
  */
 
 
@@ -18,13 +18,13 @@ namespace COMP123_S2017_Lesson9B
     {
         static void Main(string[] args)
         {
-            SuperHuman superHuman = new SuperHuman("SuperDude");
-            superHuman.AddPower("Spider Climbing", 50);
-            superHuman.AddPower("Webcasting", 40);
-            superHuman.AddPower("Webcasting", 40);
-            //superHuman.DisplayPowers();
+            SuperHero superHero = new SuperHero("SuperHero Dude", 20);
+            superHero.AddPower("Spider Climbing", 50);
+            superHero.AddPower("Webcasting", 40);
+            superHero.AddPower("Webcasting", 40);
+            //SuperHero.DisplayPowers();
 
-            Console.WriteLine(superHuman.ToString());
+            Console.WriteLine(superHero.ToString());
         }
     }
 }
