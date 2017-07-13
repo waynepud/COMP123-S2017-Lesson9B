@@ -7,7 +7,7 @@ using System.Text;
  * Name: Wayne Pud
  * Date: July 11, 2017
  * Description: This is the SuperHuman class that extends the human class
- * Version: 0.5 - overridden method tostring
+ * Version: 0.6 - added stub method (stub = not implemented method) displayskills to conform to human abstract superclass
  */
 namespace COMP123_S2017_Lesson9B
 {
@@ -76,7 +76,7 @@ namespace COMP123_S2017_Lesson9B
                 Console.WriteLine("Power: " + power.Name + " Rank: " +power.Rank );
             }
         }
-
+        // public overriden methods
         /// <summary>
         /// Overriden the built in ToStringMethod
         /// </summary>
@@ -96,5 +96,14 @@ namespace COMP123_S2017_Lesson9B
 
             return outputString;
         }
+
+        /// <summary>
+        /// This is the displayskills method, needs to be implemented
+        /// </summary>
+        public override void DisplaySkills()
+        {
+            Console.WriteLine("Not implemented");
+        }
+
     }
 }
